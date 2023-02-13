@@ -1,5 +1,12 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
+@import "./utils/fonts";
+@import "./utils/variables";
+@import "./base/_normalize";
+@import "./components/header/header.scss";
+@import "./components/wrapper/wrapper.scss";
+@import "./components/interface/interface.scss";
+@import "./components/interface/addresser.scss";
+@import "./components/interface/favorites.scss";
+@import "./components/info/info.scss";
+@import "./components/info/panel.scss";
+@import "./components/info/dialog.scss";
+@import "./components/info/store.scss";

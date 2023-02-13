@@ -1,0 +1,32 @@
+.header {
+  &__total-num {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+  }
+  &__total-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #888fa2;    
+  }
+  &__btn {
+    background: $orange;
+    border: 1px solid $orange;
+    border-radius: 8px;
+    padding: 12px 16px;
+    width: 100%;
+    max-width: 155px;
+    height: 40px;
+    color:$white;
+  }
+  &__btn-icon {
+    width: 20px;
+    height: 20px;
+  }
+  &__btn-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px; 
+  }
+}

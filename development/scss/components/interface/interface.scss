@@ -1,0 +1,46 @@
+@import "../../utils/variables";
+@import "../../utils/fonts";
+
+.interface {
+	width: 34%;
+	border-right: $border;
+
+	&__search {
+		height: 40px;
+		
+		border: $border;
+		border-radius: 8px;
+
+		align-items: center;
+		padding: 16px;
+		margin: 17px 20px;
+
+		&-icon {
+			font-size: 15px;
+			color: #88898a;
+		}
+
+		&-input {
+			width: 100%;
+			border: none;
+			outline: none;
+			padding-left: 14px;
+
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 20px;
+		}
+	}
+
+	&__group {
+		border-top: $border;
+		height: 705px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 575px){
+	.interface {
+		width: 100%;
+	}
+}
